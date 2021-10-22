@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #070707;
+}
+
+
+/* Boton Jugar */
+
+.main {
+    padding: 2% 5%;
+}
+
+.separador {
+    width: 100%;
+    height: 30px;
+}
+
+.contenedorbtn {
+    background-image: url(/img/fondo/fondoPista2.jpg);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1A1A23;
+}
+
+.contenedorbtn .marcobtn {
+    background: #202020;
+    width: 34%;
+    height: 50vh;
+    display: flex;
+    border-radius: 20px 5px 20px 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffc107;
+}
+
+.marcobtn a {
+    display: inline-block;
+    position: relative;
+    border-radius: 20px 5px 20px 5px;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.marcobtn a:hover {
+    background: #ffc107;
+    box-shadow: 0 0 10px #ffc107, 0 0 40px #ffc107, 0 0 80px #ffc107;
+    color: #1A1A23;
+    border-radius: 20px 5px 20px 5px;
+}
+
+
+/* Boton Jugar Fin */
+
+
+/* IMG HOVER */
+
+.IMG-ALL {
+    width: 100%;
+    padding-top: 40PX;
+    text-align: center;
+}
+
+.subtitle h2 {
+    font-size: 40px;
+    color: #c7c7c7;
+}
+
+.subtitle p {
+    font-size: 20px;
+    color: #c7c7c7;
+}
+
+.contenedorIMG {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10px 40px 10px;
+    box-sizing: border-box;
+}
+
+.caja {
+    flex: 1;
+    overflow: hidden;
+    margin: 8px;
+    line-height: 0;
+    box-shadow: 0 20px 30px #202020;
+    line-height: 0;
+    transition: 1.5s;
+    background: #c7c7c7;
+    border-radius: 5px;
+}
+
+.caja img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: 1.5s;
+}
+
+.caja span {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2;
+}
+
+.caja:hover {
+    flex: 70%;
+}
+
+.caja:hover img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* IMG HOVER FIN */
+
+
+/* Descrip */
+
+.DESCRIP-ALL {
+    width: 100%;
+    height: 50vh;
+    background: #202020;
+    margin-bottom: 50px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.Descrip-img {
+    width: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Descrip-img img {
+    width: 100%;
+    min-width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Descrip {
+    width: 50%;
+    align-items: center;
+}
+
+.Descrip span {
+    display: block;
+    text-align: center;
+}
+
+.small {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #f2f2f2;
+}
+
+.big {
+    font-size: 45px;
+    color: #f2f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Descrip p {
+    font-size: 18px;
+    padding: 0 1rem;
+    text-align: center;
+    color: #ffc107;
+}
+
+
+/* Descrip FIN */
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: #202020;
+    color: #f2f2f2;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px;
+    margin: auto;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Columna Info */
+
+.colum1 {
+    max-width: 400px;
+}
+
+.colum1 h2 {
+    font-size: 22px;
+}
+
+.colum1 p {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+
+/* Columna Redes */
+
+.colum2 {
+    max-width: 400px;
+}
+
+.colum2 h2 {
+    font-size: 22px
+}
+
+.fila {
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila img {
+    width: 36px;
+    height: 36px;
+}
+
+.fila label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+
+/* Columna Contacto */
+
+.colum3 {
+    max-width: 400px;
+}
+
+.colum3 h2 {
+    font-size: 22px;
+}
+
+.fila2 {
+    margin-top: 20px;
+}
+
+.fila2 img {
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+.fila2 label {
+    margin-left: 20px;
+}
+
+
+/* Container footer */
+
+.container-footer {
+    width: 100%;
+    padding: 15px;
+}
+
+.footer {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.copyright {
+    color: #c7c7c7;
+}
+
+.informacion a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-body {
+        flex-wrap: wrap;
+    }
+    .colum2 {
+        display: block;
+    }
+    .colum2,
+    .colum3 {
+        margin-top: 40px;
+    }
+}
